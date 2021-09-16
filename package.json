@@ -1,0 +1,33 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "A fast, performant and efficient random number generator",
+  "main": "random.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc ./random.ts -t es6",
+    "compile:watch": "tsc ./random.ts -w -t es6",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajaniraiyn/random.git"
+  },
+  "keywords": [
+    "random",
+    "node",
+    "js",
+    "javascript",
+    "fast",
+    "real"
+  ],
+  "author": "Rajaniraiyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rajaniraiyn/random/issues"
+  },
+  "homepage": "https://github.com/Rajaniraiyn/random#readme",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
